@@ -1,0 +1,411 @@
+-- ccache will be used for faster recompilation
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+Processing 1 dependencies:
+[1/1] idf (5.2.3)
+-- Project sdkconfig file C:/Users/Hendrik Quintelier/Wifi/sdkconfig
+Loading defaults file C:/Users/Hendrik Quintelier/Wifi/sdkconfig.defaults...
+-- Compiler supported targets: xtensa-esp-elf
+-- App "Wifi" version: 1
+-- Adding linker script C:/Users/Hendrik Quintelier/Wifi/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Users/Hendrik Quintelier/Wifi/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/Workspace/esp/v5.2.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script C:/Workspace/esp/v5.2.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script C:/Workspace/esp/v5.2.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script C:/Workspace/esp/v5.2.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script C:/Workspace/esp/v5.2.3/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script C:/Workspace/esp/v5.2.3/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Workspace/esp/v5.2.3/esp-idf/components/app_trace C:/Workspace/esp/v5.2.3/esp-idf/components/app_update C:/Workspace/esp/v5.2.3/esp-idf/components/bootloader C:/Workspace/esp/v5.2.3/esp-idf/components/bootloader_support C:/Workspace/esp/v5.2.3/esp-idf/components/bt C:/Workspace/esp/v5.2.3/esp-idf/components/cmock C:/Workspace/esp/v5.2.3/esp-idf/components/console C:/Workspace/esp/v5.2.3/esp-idf/components/cxx C:/Workspace/esp/v5.2.3/esp-idf/components/driver C:/Workspace/esp/v5.2.3/esp-idf/components/efuse C:/Workspace/esp/v5.2.3/esp-idf/components/esp-tls C:/Workspace/esp/v5.2.3/esp-idf/components/esp_adc C:/Workspace/esp/v5.2.3/esp-idf/components/esp_app_format C:/Workspace/esp/v5.2.3/esp-idf/components/esp_bootloader_format C:/Workspace/esp/v5.2.3/esp-idf/components/esp_coex C:/Workspace/esp/v5.2.3/esp-idf/components/esp_common C:/Workspace/esp/v5.2.3/esp-idf/components/esp_eth C:/Workspace/esp/v5.2.3/esp-idf/components/esp_event C:/Workspace/esp/v5.2.3/esp-idf/components/esp_gdbstub C:/Workspace/esp/v5.2.3/esp-idf/components/esp_hid C:/Workspace/esp/v5.2.3/esp-idf/components/esp_http_client C:/Workspace/esp/v5.2.3/esp-idf/components/esp_http_server C:/Workspace/esp/v5.2.3/esp-idf/components/esp_https_ota C:/Workspace/esp/v5.2.3/esp-idf/components/esp_https_server C:/Workspace/esp/v5.2.3/esp-idf/components/esp_hw_support C:/Workspace/esp/v5.2.3/esp-idf/components/esp_lcd C:/Workspace/esp/v5.2.3/esp-idf/components/esp_local_ctrl C:/Workspace/esp/v5.2.3/esp-idf/components/esp_mm C:/Workspace/esp/v5.2.3/esp-idf/components/esp_netif C:/Workspace/esp/v5.2.3/esp-idf/components/esp_netif_stack C:/Workspace/esp/v5.2.3/esp-idf/components/esp_partition C:/Workspace/esp/v5.2.3/esp-idf/components/esp_phy C:/Workspace/esp/v5.2.3/esp-idf/components/esp_pm C:/Workspace/esp/v5.2.3/esp-idf/components/esp_psram C:/Workspace/esp/v5.2.3/esp-idf/components/esp_ringbuf C:/Workspace/esp/v5.2.3/esp-idf/components/esp_rom C:/Workspace/esp/v5.2.3/esp-idf/components/esp_system C:/Workspace/esp/v5.2.3/esp-idf/components/esp_timer C:/Workspace/esp/v5.2.3/esp-idf/components/esp_wifi C:/Workspace/esp/v5.2.3/esp-idf/components/espcoredump C:/Workspace/esp/v5.2.3/esp-idf/components/esptool_py C:/Workspace/esp/v5.2.3/esp-idf/components/fatfs C:/Workspace/esp/v5.2.3/esp-idf/components/freertos C:/Workspace/esp/v5.2.3/esp-idf/components/hal C:/Workspace/esp/v5.2.3/esp-idf/components/heap C:/Workspace/esp/v5.2.3/esp-idf/components/http_parser C:/Workspace/esp/v5.2.3/esp-idf/components/idf_test C:/Workspace/esp/v5.2.3/esp-idf/components/ieee802154 C:/Workspace/esp/v5.2.3/esp-idf/components/json C:/Workspace/esp/v5.2.3/esp-idf/components/log C:/Workspace/esp/v5.2.3/esp-idf/components/lwip C:/Users/Hendrik Quintelier/Wifi/main C:/Workspace/esp/v5.2.3/esp-idf/components/mbedtls C:/Workspace/esp/v5.2.3/esp-idf/components/mqtt C:/Workspace/esp/v5.2.3/esp-idf/components/newlib C:/Workspace/esp/v5.2.3/esp-idf/components/nvs_flash C:/Workspace/esp/v5.2.3/esp-idf/components/nvs_sec_provider C:/Workspace/esp/v5.2.3/esp-idf/components/openthread C:/Workspace/esp/v5.2.3/esp-idf/components/partition_table C:/Workspace/esp/v5.2.3/esp-idf/components/perfmon C:/Workspace/esp/v5.2.3/esp-idf/components/protobuf-c C:/Workspace/esp/v5.2.3/esp-idf/components/protocomm C:/Workspace/esp/v5.2.3/esp-idf/components/pthread C:/Workspace/esp/v5.2.3/esp-idf/components/sdmmc C:/Workspace/esp/v5.2.3/esp-idf/components/soc C:/Workspace/esp/v5.2.3/esp-idf/components/spi_flash C:/Workspace/esp/v5.2.3/esp-idf/components/spiffs C:/Workspace/esp/v5.2.3/esp-idf/components/tcp_transport C:/Workspace/esp/v5.2.3/esp-idf/components/touch_element C:/Workspace/esp/v5.2.3/esp-idf/components/ulp C:/Workspace/esp/v5.2.3/esp-idf/components/unity C:/Workspace/esp/v5.2.3/esp-idf/components/usb C:/Workspace/esp/v5.2.3/esp-idf/components/vfs C:/Workspace/esp/v5.2.3/esp-idf/components/wear_levelling C:/Workspace/esp/v5.2.3/esp-idf/components/wifi_provisioning C:/Workspace/esp/v5.2.3/esp-idf/components/wpa_supplicant C:/Workspace/esp/v5.2.3/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Hendrik Quintelier/Wifi/build
+[0/1] Re-running CMake...
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D "C:\Users\Hendrik Quintelier\Wifi\build\bootloader\esp-idf\esptool_py" && c:\Workspace\.espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Workspace/esp/v5.2.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 "C:/Users/Hendrik Quintelier/Wifi/build/bootloader/bootloader.bin""
+Bootloader binary size 0x5470 bytes. 0x2b90 bytes (34%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/mpu.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/mpu.c.obj 
+ccache C:\Workspace\.espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.2.3\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I"C:/Users/Hendrik Quintelier/Wifi/build/config" -I"C:/Users/Hendrik Quintelier/Wifi/main" -IC:/Workspace/esp/v5.2.3/esp-idf/components/newlib/platform_include -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/config/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/config/include/freertos -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/config/xtensa/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/FreeRTOS-Kernel/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/esp_additions/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_hw_support/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_hw_support/include/soc -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_hw_support/include/soc/esp32s3 -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_hw_support/port/esp32s3/. -IC:/Workspace/esp/v5.2.3/esp-idf/components/heap/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/log/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/soc/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/soc/esp32s3 -IC:/Workspace/esp/v5.2.3/esp-idf/components/soc/esp32s3/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/hal/platform_port/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/hal/esp32s3/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/hal/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_rom/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_rom/include/esp32s3 -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_rom/esp32s3 -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_common/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_system/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_system/port/soc -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_system/port/include/private -IC:/Workspace/esp/v5.2.3/esp-idf/components/xtensa/esp32s3/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/xtensa/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/xtensa/deprecated_include -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/include/apps -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/include/apps/sntp -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/lwip/src/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/port/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/port/freertos/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/port/esp32xx/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/port/esp32xx/include/arch -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/port/esp32xx/include/sys -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_netif/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_event/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_wifi/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_wifi/wifi_apps/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_phy/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_phy/esp32s3/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/nvs_flash/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/spi_flash/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_partition/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_http_server/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/http_parser -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap "-fmacro-prefix-map=C:/Users/Hendrik Quintelier/Wifi=." -fmacro-prefix-map=C:/Workspace/esp/v5.2.3/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/mpu.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\mpu.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/mpu.c.obj -c "C:/Users/Hendrik Quintelier/Wifi/main/mpu.c"
+C:/Users/Hendrik Quintelier/Wifi/main/mpu.c:3:10: fatal error: driver/i2c.h: No such file or directory
+    3 | #include "driver/i2c.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+[3/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/station_example_main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/station_example_main.c.obj 
+ccache C:\Workspace\.espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.2.3\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I"C:/Users/Hendrik Quintelier/Wifi/build/config" -I"C:/Users/Hendrik Quintelier/Wifi/main" -IC:/Workspace/esp/v5.2.3/esp-idf/components/newlib/platform_include -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/config/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/config/include/freertos -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/config/xtensa/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/FreeRTOS-Kernel/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Workspace/esp/v5.2.3/esp-idf/components/freertos/esp_additions/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_hw_support/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_hw_support/include/soc -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_hw_support/include/soc/esp32s3 -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_hw_support/port/esp32s3/. -IC:/Workspace/esp/v5.2.3/esp-idf/components/heap/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/log/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/soc/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/soc/esp32s3 -IC:/Workspace/esp/v5.2.3/esp-idf/components/soc/esp32s3/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/hal/platform_port/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/hal/esp32s3/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/hal/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_rom/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_rom/include/esp32s3 -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_rom/esp32s3 -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_common/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_system/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_system/port/soc -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_system/port/include/private -IC:/Workspace/esp/v5.2.3/esp-idf/components/xtensa/esp32s3/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/xtensa/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/xtensa/deprecated_include -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/include/apps -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/include/apps/sntp -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/lwip/src/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/port/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/port/freertos/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/port/esp32xx/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/port/esp32xx/include/arch -IC:/Workspace/esp/v5.2.3/esp-idf/components/lwip/port/esp32xx/include/sys -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_netif/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_event/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_wifi/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_wifi/wifi_apps/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_phy/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_phy/esp32s3/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/nvs_flash/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/spi_flash/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_partition/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/esp_http_server/include -IC:/Workspace/esp/v5.2.3/esp-idf/components/http_parser -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap "-fmacro-prefix-map=C:/Users/Hendrik Quintelier/Wifi=." -fmacro-prefix-map=C:/Workspace/esp/v5.2.3/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/station_example_main.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\station_example_main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/station_example_main.c.obj -c "C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c"
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c: In function 'mpu_main':
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:136:10: error: implicit declaration of function 'mpu_init' [-Werror=implicit-function-declaration]
+  136 |     if (!mpu_init())
+      |          ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:142:5: error: unknown type name 'mpu_data_t'
+  142 |     mpu_data_t data;
+      |     ^~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:146:13: error: implicit declaration of function 'mpu_read'; did you mean 'pread'? [-Werror=implicit-function-declaration]
+  146 |         if (mpu_read(&data))
+      |             ^~~~~~~~
+      |             pread
+In file included from C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:8:
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:26: error: request for member 'accel_x' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                          ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:436:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  436 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:40: error: request for member 'accel_y' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                                        ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:436:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  436 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:54: error: request for member 'accel_z' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                                                      ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:436:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  436 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:26: error: request for member 'gyro_x' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                          ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:436:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  436 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:39: error: request for member 'gyro_y' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                                       ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:436:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  436 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:52: error: request for member 'gyro_z' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                                                    ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:436:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  436 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:26: error: request for member 'accel_x' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                          ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:437:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  437 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:40: error: request for member 'accel_y' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                                        ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:437:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  437 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:54: error: request for member 'accel_z' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                                                      ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:437:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  437 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:26: error: request for member 'gyro_x' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                          ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:437:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  437 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:39: error: request for member 'gyro_y' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                                       ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:437:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  437 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:52: error: request for member 'gyro_z' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                                                    ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:437:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  437 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:26: error: request for member 'accel_x' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                          ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:438:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  438 |         else if (level==ESP_LOG_DEBUG )     { esp_log_write(ESP_LOG_DEBUG,      tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:40: error: request for member 'accel_y' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                                        ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:438:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  438 |         else if (level==ESP_LOG_DEBUG )     { esp_log_write(ESP_LOG_DEBUG,      tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:54: error: request for member 'accel_z' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                                                      ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:438:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  438 |         else if (level==ESP_LOG_DEBUG )     { esp_log_write(ESP_LOG_DEBUG,      tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:26: error: request for member 'gyro_x' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                          ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:438:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  438 |         else if (level==ESP_LOG_DEBUG )     { esp_log_write(ESP_LOG_DEBUG,      tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:39: error: request for member 'gyro_y' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                                       ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:438:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  438 |         else if (level==ESP_LOG_DEBUG )     { esp_log_write(ESP_LOG_DEBUG,      tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:52: error: request for member 'gyro_z' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                                                    ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:438:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  438 |         else if (level==ESP_LOG_DEBUG )     { esp_log_write(ESP_LOG_DEBUG,      tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:26: error: request for member 'accel_x' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                          ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:439:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  439 |         else if (level==ESP_LOG_VERBOSE )   { esp_log_write(ESP_LOG_VERBOSE,    tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:40: error: request for member 'accel_y' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                                        ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:439:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  439 |         else if (level==ESP_LOG_VERBOSE )   { esp_log_write(ESP_LOG_VERBOSE,    tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:54: error: request for member 'accel_z' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                                                      ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:439:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  439 |         else if (level==ESP_LOG_VERBOSE )   { esp_log_write(ESP_LOG_VERBOSE,    tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:26: error: request for member 'gyro_x' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                          ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:439:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  439 |         else if (level==ESP_LOG_VERBOSE )   { esp_log_write(ESP_LOG_VERBOSE,    tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:39: error: request for member 'gyro_y' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                                       ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:439:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  439 |         else if (level==ESP_LOG_VERBOSE )   { esp_log_write(ESP_LOG_VERBOSE,    tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:52: error: request for member 'gyro_z' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                                                    ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:439:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  439 |         else if (level==ESP_LOG_VERBOSE )   { esp_log_write(ESP_LOG_VERBOSE,    tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:26: error: request for member 'accel_x' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                          ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:440:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  440 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:40: error: request for member 'accel_y' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                                        ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:440:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  440 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:149:54: error: request for member 'accel_z' in something not a structure or union
+  149 |                      data.accel_x, data.accel_y, data.accel_z,
+      |                                                      ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:440:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  440 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:26: error: request for member 'gyro_x' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                          ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:440:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  440 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:39: error: request for member 'gyro_y' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                                       ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:440:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  440 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:150:52: error: request for member 'gyro_z' in something not a structure or union
+  150 |                      data.gyro_x, data.gyro_y, data.gyro_z);
+      |                                                    ^
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:440:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  440 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/Workspace/esp/v5.2.3/esp-idf/components/log/include/esp_log.h:368:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  368 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/Hendrik Quintelier/Wifi/main/station_example_main.c:148:13: note: in expansion of macro 'ESP_LOGI'
+  148 |             ESP_LOGI("APP", "Accel X: %.2f, Y: %.2f, Z: %.2f | Gyro X: %.2f, Y: %.2f, Z: %.2f",
+      |             ^~~~~~~~
+cc1.exe: some warnings being treated as errors
+ninja: build stopped: subcommand failed.

@@ -1,0 +1,221 @@
+# ninja log v5
+52	2667	7532073126225654	project_elf_src_esp32s3.c	b08eacdf89a7c220
+52	2667	7532073126225654	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/project_elf_src_esp32s3.c	b08eacdf89a7c220
+93	3371	7532073138277420	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj	50f3f980192760de
+726	3423	7532073145577229	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj	f344dcf8ba079ae2
+761	3494	7532073139775227	esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj	4b95a38b09526533
+995	4127	7532073154024243	esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj	7a66112a0fd1347f
+1027	4177	7532073139940463	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj	1b24796cb1b20725
+1153	4938	7532073158384006	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj	195e8df1b35fbca4
+1200	4964	7532073157478710	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj	c781b96805fbb8af
+1242	4987	7532073154975465	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj	894cc6e760201ce8
+1537	5032	7532073153675640	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj	115938513051a185
+1568	5062	7532073156975678	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj	8219b314a59eb6bf
+2520	5082	7532073164303448	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj	45c11a85d207180
+2668	5152	7532073172992203	CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj	ad4e8824c0cfdd62
+3373	5201	7532073163517922	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj	7afa64ef67047b8c
+3425	5233	7532073162036770	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj	3b9a51f76fd233f4
+4127	6018	7532073183131253	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj	fae57745dcfdb51b
+2496	6059	7532073183131253	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj	13e3d2fb16b9e1d4
+1628	6090	7532073183079577	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj	84223add36272eab
+3495	6107	7532073183226660	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj	b2e00cf5610b4ca5
+4939	6183	7532073184461157	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj	d86508a0463c8376
+4988	6224	7532073184275514	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj	e0716b3b8d50e1f5
+4965	6268	7532073184576706	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj	cc70ec8413d835d6
+4178	6548	7532073187875978	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj	114729b7b4c4aeb0
+6091	6741	7532073190207553	esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj	8f6d1541d9e410d0
+5153	6986	7532073192705837	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj	84d88ea37a879f07
+5202	7248	7532073193886324	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_periph.c.obj	e2d78bde8953b2da
+5032	7720	7532073199694299	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj	ed515c6d7bc8f88a
+5063	8384	7532073202411795	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj	add727e86895de90
+5083	8418	7532073203344430	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj	efc3e2ae7156d80b
+5233	8435	7532073206325643	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.obj	c937d088d9feacf5
+6059	8929	7532073206343414	esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj	ccf8bd645018dca1
+6107	9457	7532073207992411	esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj	a35b69f6a18d2bb3
+6018	10079	7532073212429580	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj	3dbc48116935602
+6224	10129	7532073218299092	esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj	b4dc22528654ad24
+6184	10784	7532073230778887	esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj	8824c86cf02c7ecb
+6986	10883	7532073231502656	esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_bootloader_desc.c.obj	cb08596b7f90aa9f
+6549	11453	7532073237527278	esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj	f2a9e4d821eef49a
+6268	11577	7532073238151151	esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj	2299a90bcab184ec
+8418	12293	7532073245178714	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj	b1488a056a7cb8f
+6741	12798	7532073250818628	esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj	44469207f050fbf5
+8435	12903	7532073251944172	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj	c6f89747fcd4aa94
+8384	13187	7532073254879333	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj	83336dadfb89b95f
+10131	13839	7532073261014356	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32s3.c.obj	c635b226f066fc14
+7248	13858	7532073261140544	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj	579710b9e8d4051b
+7721	14091	7532073263144595	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj	3c19dbdb393192f0
+10080	14137	7532073262990441	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj	357c108ebcb06c21
+8930	14324	7532073266147497	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj	9ca108e1574a9409
+9458	14775	7532073270775436	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj	5448aeed8f00a8c1
+13188	15226	7532073275308047	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj	7471a67ab9cee124
+12294	15868	7532073281579261	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj	5bb29b3ca2a29472
+14137	15996	7532073282878611	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_soc.c.obj	8d9e7a33d731434
+10883	16196	7532073284708429	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj	daceab9fb8c984b8
+13859	16725	7532073289829348	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj	5b286b3ef1f26067
+11454	16961	7532073292428466	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32s3.c.obj	2134b020dc7b426
+13840	16986	7532073292893958	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj	3659dab02710b7a8
+10784	17928	7532073302078615	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj	8cc1c993c8bd19aa
+15227	18259	7532073305463478	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_table.c.obj	b567758486e21af1
+14091	18326	7532073306234752	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_sha.c.obj	75306195d2199fea
+14775	18644	7532073309075043	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj	27f53ad273123537
+11577	18737	7532073310118257	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj	f2ac8b08209f83b
+15997	19465	7532073317691183	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_rtc_calib.c.obj	439b49b8e05ded5e
+15868	19781	7532073320824001	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_fields.c.obj	ac36ad84f3558610
+16196	20402	7532073326706205	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_utility.c.obj	fa96ee6ccf4001ca
+16962	20443	7532073327335929	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj	9d2eea1752706ac
+12799	20585	7532073328577334	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj	62e53b1f493618f7
+18738	20653	7532073329479252	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj	a9daa21ff922171d
+12904	20915	7532073331577965	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj	ee123aae332168fc
+16725	21244	7532073335309177	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj	2f3d7a6774e3801b
+18644	21326	7532073335925656	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/esp_cpu_intr.c.obj	49a0ec464f57dcd7
+16987	21578	7532073337702340	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj	d31ca77526ba131d
+14324	21672	7532073338774407	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_esp32s3.c.obj	ca118f29e6a690e9
+17928	21765	7532073340176683	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c.obj	91ed0cdd1fe62ea
+18326	21831	7532073341234589	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj	d483c6395547251b
+18259	22004	7532073343062669	esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj	9312d8c9304aa7c3
+19465	22390	7532073346642539	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/cpu_region_protect.c.obj	50c15cc248d697dc
+22005	23116	7532073354017926	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj	3908d5d54c4270d6
+21327	23145	7532073353937320	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj	b4855e4a8ab60f45
+21579	23502	7532073357875871	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj	1d13d47abb43b14c
+21832	23749	7532073360253703	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj	7434acc5f6336712
+20654	23798	7532073360253703	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_time.c.obj	f8c0c832a2facb7d
+19782	23914	7532073361990418	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk.c.obj	c54d4b0c60b35176
+23503	24179	7532073364400837	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_writeback_esp32s3.S.obj	584e6b5ed728274d
+20586	24748	7532073369718853	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_sleep.c.obj	d437cd2929ed5680
+21673	24777	7532073370618979	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj	ff935c0742c1f367
+20443	25625	7532073378878828	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_init.c.obj	c8522d47b6cce93
+21766	25724	7532073379878123	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj	fc4fd48bb2ba92e2
+20916	25794	7532073380526699	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/chip_info.c.obj	e1a26e35a1edbde6
+22390	26337	7532073385910497	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_systimer.c.obj	540c56746626943
+21244	26380	7532073386675812	esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj	c6e29192ee12ad8b
+20403	26544	7532073388231087	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk_init.c.obj	e5103b4c068508cc
+23145	26799	7532073390978596	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_esp32s2_esp32s3.c.obj	5479255fed412db
+23116	27006	7532073392852273	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_wdt.c.obj	1b4ad2e417a1e6dc
+23915	27013	7532073392847189	esp-idf/log/CMakeFiles/__idf_log.dir/log_noos.c.obj	f74a086becc83777
+23799	27103	7532073393985224	esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj	3c0c047b49ac5cd
+24180	27389	7532073396803325	esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj	279c860c5240a769
+23749	27419	7532073397155823	esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj	65c587e69d1eb2c6
+27419	28070	7532073403627217	esp-idf/log/liblog.a	eaafa342c673634a
+28070	29047	7532073413335506	esp-idf/esp_rom/libesp_rom.a	4b304026a750b8b7
+29047	29859	7532073421409216	esp-idf/esp_common/libesp_common.a	5c80fddd577db4ee
+29859	30903	7532073431675611	esp-idf/esp_hw_support/libesp_hw_support.a	9ffcda6d90d6c827
+30903	31885	7532073440690211	esp-idf/esp_system/libesp_system.a	b6c96e1f16a61bc1
+31886	33081	7532073453524395	esp-idf/efuse/libefuse.a	96ae42acd790857d
+33081	34765	7532073470427057	esp-idf/bootloader_support/libbootloader_support.a	a8cdf4146103edfd
+34765	35766	7532073480319458	esp-idf/esp_bootloader_format/libesp_bootloader_format.a	318f12ca73427904
+35767	37042	7532073492690463	esp-idf/spi_flash/libspi_flash.a	807212a5f4bf78c6
+37042	38122	7532073503723957	esp-idf/hal/libhal.a	733dbc1189af97af
+38123	39843	7532073519545667	esp-idf/micro-ecc/libmicro-ecc.a	c74a37043cdab4c4
+39843	41205	7532073534600057	esp-idf/soc/libsoc.a	331a43b8308bb4a6
+41205	42173	7532073544527567	esp-idf/xtensa/libxtensa.a	bb18ff3e3855dfcb
+42173	43167	7532073554284140	esp-idf/main/libmain.a	2babb123219848ff
+43167	44897	7532073570418006	bootloader.elf	ab44b75bd9b967b9
+44897	46739	7532073589521264	.bin_timestamp	b5941c441b1a4c52
+44897	46739	7532073589521264	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/.bin_timestamp	b5941c441b1a4c52
+46739	47340	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+46739	47340	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+43	241	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+43	241	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+59	310	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+59	310	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+63	448	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+63	448	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+50	314	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+50	314	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+44	314	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+44	314	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+43	261	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+43	261	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+52	294	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+52	294	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+41	254	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+41	254	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+45	263	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+45	263	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+41	253	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+41	253	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+46	270	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+46	270	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	244	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	244	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+82	354	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+82	354	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+44	271	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+44	271	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	282	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	282	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+64	401	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+64	401	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+53	290	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+53	290	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+40	247	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+40	247	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+34	230	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+34	230	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+38	248	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+38	248	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+44	265	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+44	265	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+43	232	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+43	232	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+46	307	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+46	307	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	262	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	262	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+54	255	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+54	255	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	253	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	253	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+52	293	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+52	293	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+52	322	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+52	322	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+40	262	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+40	262	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	222	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	222	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+70	349	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+70	349	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+45	301	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+45	301	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	269	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	269	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+39	229	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+39	229	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+45	286	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+45	286	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+44	256	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+44	256	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+46	287	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+46	287	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+40	227	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+40	227	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+40	248	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+40	248	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+43	268	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+43	268	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+40	244	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+40	244	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+45	292	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+45	292	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+39	231	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+39	231	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+39	270	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+39	270	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+44	238	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+44	238	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+47	270	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+47	270	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+47	271	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+47	271	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	232	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+42	232	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+46	248	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+46	248	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+37	240	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+37	240	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+44	288	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+44	288	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+37	238	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
+37	238	0	C:/Users/Hendrik Quintelier/Wifi/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	8174abf32fe756f2
